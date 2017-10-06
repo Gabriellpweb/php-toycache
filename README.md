@@ -10,9 +10,12 @@ How to use
 php toycache.php
 
 Commands:<br/>
-SET KEY VALUE<br/>
+SET KEY VALUE - Set a variable on server.<br/>
 Key - Name of the remote variable.<br/>
 Value - Value to store withoud spaces.
+
+GET KEY - Get variable value on server.<br/
+Key - Name of the remote variable.<br/>
 
 
 Ex.:
