@@ -1,5 +1,7 @@
 node {
-  stage('Checkout') {
-    sh 'echo "checkou!"'
+  stages {
+    stage('Checkout') {
+      sh 'ls -la'
+    }
   }
 }
